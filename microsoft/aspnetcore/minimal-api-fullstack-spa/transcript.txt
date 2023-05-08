@@ -1,0 +1,116 @@
+**********************
+PowerShell transcript start
+Start time: 20230507120950
+Username: DESKTOP-Q5ULLDC\root
+RunAs User: DESKTOP-Q5ULLDC\root
+Configuration Name: 
+Machine: DESKTOP-Q5ULLDC (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\root\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 13556
+PSVersion: 7.3.4
+PSEdition: Core
+GitCommitId: 7.3.4
+OS: Microsoft Windows 10.0.19045
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.4
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is transcript.txt
+]633;E;start-transcript -Path transcript.txt]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>npm install --global yarn
+
+added 1 package in 2s
+]633;E;npm install --global yarn]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>echo scaffold the app
+scaffold
+the
+app
+]633;E;echo scaffold the app]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>npx create-react-app pizza-web
+
+]633;E;npx create-react-app pizza-web]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>dotnet new gitignore
+
+]633;E;dotnet new gitignore]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>ls
+
+    Directory: C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2023-05-07    12:23                pizza-web
+-a---          2023-05-07    12:23           8411 .gitignore
+-a---          2023-05-07    12:03             76 readme.md
+-a---          2023-05-07    12:23           2149 transcript.txt
+
+]633;E;ls]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>git add .\.gitignore
+
+]633;E;git add .\x5c.gitignore]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>git commit -m "adding default ignore file"
+
+]633;E;git commit -m "adding default ignore file"]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>cd  .\pizza-web\
+]633;E;cd  .\x5cpizza-web\x5c]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>yarn start
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;E;yarn start]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>yarn add styled-components
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;E;yarn add styled-components]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>yarn add styled-components
+
+]633;E;yarn add styled-components]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+]633;E]633;D]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>echo "why is yarn timing out"
+why is yarn timing out
+]633;E;echo "why is yarn timing out"]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>yarn config set httpTimeout 600000
+
+]633;E;yarn config set httpTimeout 600000]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>yarn add styled-components
+
+]633;E;yarn add styled-components]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>yarn start
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;E;yarn start]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>yarn start
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;E;yarn start]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>yarn start
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;E;yarn start]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>npm install json-server
+
+]633;E;npm install json-server]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spa\x5cpizza-webPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa\pizza-web> ]633;B
+PS>cd ..
+]633;E;cd ..]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimal-api-fullstack-spaPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimal-api-fullstack-spa> ]633;B
+PS>cd ..
+]633;E;cd ..]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcorePS C:\Users\root\source\continuing-education\microsoft\aspnetcore> ]633;B
+PS>cd .\minimial-api-db\
+]633;E;cd .\x5cminimial-api-db\x5c]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimial-api-dbPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimial-api-db> ]633;B
+PS>code .
+
+]633;E;code .]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5croot\x5csource\x5ccontinuing-education\x5cmicrosoft\x5caspnetcore\x5cminimial-api-dbPS C:\Users\root\source\continuing-education\microsoft\aspnetcore\minimial-api-db> ]633;B
+PS>Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20230507233912
+**********************
